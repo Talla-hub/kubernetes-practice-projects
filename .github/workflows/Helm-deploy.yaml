@@ -30,4 +30,8 @@ jobs:
 
       - name: Deploy Helm Chart
         run: |
+<<<<<<< HEAD
           helm upgrade --install my-nginx C:\Users\morta\OneDrive\Documents\GitHub\kubernetes-practice-projects\Helm\my-nginx --debug
+=======
+          helm upgrade --install my-nginx C:/Users/morta/OneDrive/Documents/GitHub/kubernetes-practice-projects/Helm
+>>>>>>> 81ebd42681cbcb014eac33207a5a5a92c6952270
